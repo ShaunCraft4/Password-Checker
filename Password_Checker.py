@@ -37,6 +37,7 @@ def Remarks(score,advice):
     else:
         print("Excellent password!!!")
 
+
 password=input("Enter password: ")
 tup=Check(password)
 Remarks(tup[0],tup[1])
